@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Услуги</title>
+   <link rel="shortcut icon" href="assets/image/Ресурс2.svg" type="image/x-icon">
+  <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="icon" type="" href="">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+   <link rel="stylesheet" href="assets/css/main.css">
+<script src="assets/js/jquery.js"></script>
+<!--/Default-->
+<link rel="stylesheet" type="text/css" href="assets/css/modal.css" />
+<script src="assets/js/modal.js"></script>
+</head>
+<body>
+<header class="header">
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="logo" src="assets/image/Ресурс 1.svg" alt="logo" width="40" height="40" align="center">Forgento</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+            <a href="about.html">О компании</a>
+          </li> 
+          <li class="nav-item active">
+            <a href="photo_gallery.html">Фотогалерея</a>
+          </li> 
+          <li class="nav-item active">
+            <a href="certificates.html">Сертификаты</a>
+          </li> 
+          <li class="nav-item active">
+            <a href="reviews.html">Отзывы</a>
+          </li> 
+          <li class="nav-item active">
+            <a href="contacts.html">Контакты</a>
+          </li> 
+        </ul>
+        <div class="header-phone">
+          <a href="tel:+375445776789" class="phone">+375 (44) <span>577-67-89</span></a>
+          <a href="#" class="callback modal">Заказать обратный звонок</a>
+        </div>
+
+      </div>
+  </div>
+</nav>
+</header>
+<!-- /.header -->
+
+<div id="modal_form">
+    <h2>Заказать звонок!</h2>
+    <div class="comment">Оставьте Ваши данные и мы перезвоним Вам!</div>
+      <a class="exit"></a>
+     <form>
+        <input type="hidden" name="project_name" value="cf">
+    <input type="hidden" name="admin_email" value="pantikiller080@gmail.com">
+    <input type="hidden" name="form_subject" value="Form Subject">
+    <!-- END Hidden Required Fields -->
+        <input type="text" placeholder="Как вас зовут?" name="name-zv" id="name" class="input_text">
+        <input type="text" placeholder="Контактный телефон *" name="phone-zv" id="phone-zv" class="phone-zv">
+    <div class="comment">Поля отмеченные <span class="required">*</span> обязательны для заполнения</div>
+        <button class="button">Перезвоните мне</button>
+    </form>
+</div>
+
+<div id="overlay"></div><!-- Пoдлoжкa -->
+<section class="head">
+  <!--<div class="container">
+    <h1 class="title-about gallery">Услуги</h1>
+</div>-->
+<div class="img-content-wrapper" style="background-image: url(assets/image/clients2.jpg);">
+  <div class="container">
+    <h1 class="title-service font">Услуги</h1>
+</div>
+</div>
+</section>
+
+<section class="text-service">
+  <div class="container">
+    <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h1 class="title-text-service">Инженерные услуги в строительстве</h1>
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <p class="card-body">
+        <b>Инженерные услуги</b> - согласно нормативных документов — это консультирование по вопросам проектирования и строительства, а также выполнение по договорам
+функций заказчика, застройщика по осуществлению организационно-технических мероприятий на различных стадиях строительной деятельности без выполнения
+строительно-монтажных работ собственными силами.
+<br><br>
+<b>000 “Форгенто” укомплектована опытными специалистами и может осуществлять инженерные услуги по строительству и управление проектом по объектам первого,
+второго, третьего, четвертого и пятого классов сложности согласно СТБ П 2331-2013.
+</b>
+<br><br>
+<b>Технический надзор в строительстве</b> — согласно ТКП 45-1.03-162-2009 «Технический надзор в строительстве. Порядок проведения» это часть строительного процесса,
+включающего контроль и надзор заказчика за соответствием строительно-монтажных работ, применяемых материалов, изделий, конструкций и оборудования требованиям
+действующих ТНПА и утвержденной проектно-сметной документации, а также освидетельствование, приемку и учет выполненных работ.
+<br><br>
+<b>000 “Форгенто” имеет 9 аттестованных специалистов, которые могут осуществлять технический надзор по общестроительным, санитарно-техническим,
+электротехническим работам, газоснабжению по объектам всех классов сложности согласно СТБ П 2331-2013.
+</b>
+</p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h1 class="title-text-service">Проектирование, монтаж, техническое обслуживание систем пожарной сигнализации</h1>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <p>
+<b>В настоящее время одним из направлений работы ООО "Форгенто"</b> в области пожарной безопасности является монтаж, наладка, техническое обслуживание систем автоматической пожарной сигнализации, а так же систем оповещения людей о пожаре.
+<br><br>
+В нашей организации работают <b>высококвалифицированные специалисты</b>, мастера своего дела. Получены все разрешительные документы от МЧС РБ на выполнение данных работ и услуг. Все сотрудники обучены в учебных учреждениях МЧС и имеют многолетний опыт работы в этой сфере. Специалисты "Форгенто" выполняют проектирование, монтаж, наладку пожарной сигнализации любой сложности. Все работы производятся в соответствии с установленными нормами и требованиями пожарной безопасности.
+<br><br>
+<b>Наша компания</b> принимает активное участие в подрядных (конкурсных) торгах по осуществлению технического обслуживания, ремонта и установки пожарных сигнализаций, поэтому мы уверены, что предложение "Форгенто" будет лучшим по соотношению цена/качество.
+    </p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h1 class="title-text-service">Проектирование, монтаж, техническое обслуживание систем видеонаблюдения</h1>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <p>
+          <b>Длительность и стоимость установки системы видеонаблюдения</b> в Республике Беларусь зависит от сложности проекта, предполагаемых работ, количества монтируемого оборудования. Цены на на наши услуги вполне приемлемы и несколько повышаются зимой. <b>Опыт работы более 15 лет!</b> Мы объединили теорию и практические навыки для того, чтобы предложить Заказчику самые эффективные решения по разумной цене. Гарантируем: вдумчивый и внимательный подход к каждому физическому или юридическому лицу; ответственное отношение при проектировании системы видеонаблюдения; подбор наиболее оптимального оборудования по соотношению цена/качество; быструю установку; наличие лицензий на данный вид работ; бесплатные консультации по интересующим вопросам; лояльные условия и гибкую систему ценообразования. У нас Вы сможете заказать видеоборудование от лучших производителей мира.
+       <br><br>
+       Используем оборудование производства <b>Samsung Techwin, Navicam, Dahua, Hikvision</b> - проверенные временем компании. Создаём системы видеонаблюдения как с аналоговыми, так и с цифровыми камерами для внутреннего и наружного наблюдения. Устанавливаем как стандартные системы, так и "умные" с распознаванием лиц людей, регистрационных номеров автомобилей, масштабированием. Предлагаем к установке скрытые мини-камеры для негласного наблюдения, купольные, поворотные PTZ и другие — в зависимости от поставленной клиентом задачи. Видеонаблюдение представляет собой сложную систему, предназначенную для визуального контроля за объектом наблюдения, материальными ценностями либо технологическими процессами. Грамотно разработанная проектная документация упрощает процесс выполнения строительно-монтажных работ, дает гарантию качества ее дальнейшего успешного функционирования и защитит заказчика от излишних затрат. Мы с большим успехом проектируем современные системы видеонаблюдения на базе самого современного оборудования. <b>Наши специалисты в курсе последних трендов</b> на рынке видеокамер и помогут подобрать наилучшие решения в соотношении «цена-качество». Среди огромного количества производителей выбираются те, что удовлетворяют требованиям заказчика и являются оптимальными. Проектирование ведется аттестованными специалистами на основании специального разрешения (лицензии) на проектирование средств и систем охраны. Заключаем договоры на обслуживание и ремонт систем видеонаблюдения.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section class="feedback">
+  <div class="container">
+    <h2 class="title-service">Оставить заявку</h2>
+
+    
+
+    <form class="form feedback-from" action="mail.php">
+    <fieldset>
+          <p class="text-center">Пожалуйста, укажите Ваш номер телефона, и мы обязательно<br> 
+          свяжемся с Вами в течении рабочего дня</p>
+    <div class="row justify-content-center">
+      <div class="col-lg-4">  
+        <!-- Hidden Required Fields -->
+        <form>
+    <input type="hidden" name="project_name" value="https://forgento.000webhostapp.com/index.html">
+    <input type="hidden" name="admin_email" value="pantikiller080@gmail.com">
+    <input type="hidden" name="form_subject" value="Form Subject">
+    <!-- END Hidden Required Fields -->
+          <input type="text" placeholder="Ваше имя" class="input" name="name">
+    <input type="text" placeholder="Ваш телефон" class="input" name="phone">
+    <input type="text" placeholder="Ваша почта" class="input" name="email">
+          </div>
+      <div class="col-lg-4">
+      <textarea placeholder="Ваше сообщение" class="input textarea" name="message"></textarea>
+      </div>
+        </div>
+    <button class="main-btn" type="submit">Отправить</button>
+        </form>
+    <small>
+            Нажимая на кнопку отправить вы соглашаетесь с <br>
+            условием по обработке персональных данных
+    </small>
+    </fieldset>
+    </form> 
+  </div>
+</section>
+
+<section class="maps">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A09cc175050b7a951c6eb6dadab408bba3515b99a43bde51ebd926c8f06033268&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+</section>
+
+<footer class="page-footer font-small mdb-color pt-4">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left mt-3 pb-3">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Forgento</h6>
+        <p>Проектирование, монтаж, техническое обслуживание систем пожарной сигнализации.
+            Инженерные услуги в строительстве</p>
+      </div>
+      <hr class="w-100 clearfix d-md-none">
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Вкладки</h6>
+        <p>
+          <a href="about.html" class="opas">О компании</a>
+        </p>
+        <p>
+          <a href="photo_gallery.html" class="opas">Фотогалерея</a>
+        </p>
+        <p>
+          <a href="certificates.html" class="opas">Сертификаты</a>
+        </p>
+        <p>
+          <a href="reviews.html" class="opas">Отзывы</a>
+        </p>
+          <p>
+          <a href="contacts.html" class="opas">Контакты</a>
+        </p>
+          <p>
+          <a href="#!" class="opas">Услуги</a>
+        </p>
+      </div>
+      <hr class="w-100 clearfix d-md-none">
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Услуги</h6>
+        <p>
+          <a href="services.html" class="opas" data-target="#collapseTwo" id="headingTwo">Проектирование, монтаж, техническое обслуживание систем пожарной сигнализации</a>
+        </p>
+        <p>
+          <a href="services.html" class="opas">Проектирование, монтаж, техническое обслуживание систем видеонаблюдения</a>
+        </p>
+        <p>
+          <a href="services.html" class="opas">Инженерные услуги в строительстве</a>
+        </p>
+      </div>
+      <hr class="w-100 clearfix d-md-none">
+      <div class="col-md-6 col-lg-4 col-xl-4 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Контакты</h6>
+        <p>
+          <img src="assets/favicon/location-pin.png" width="40px" height="40px" alt="">
+          <i class="fas fa-home mr-1"></i>г. Бобруйск ул. Рокоссовского, 17/23</p>
+        <p>
+          <img src="assets/favicon/email.png" alt="" width="40px" height="40px">
+          <i class="fas fa-envelope mr-1"></i> info@forgento.by</p>
+        <p>
+          <img src="assets/favicon/telephone.png" alt="" width="40px" height="40px">
+          <i class="fas fa-phone mr-1"></i> +375 44 577-67-89</p>
+        <p>
+          <img src="assets/favicon/headphones.png" alt="" width="40px" height="40px">
+          <i class="fas fa-print mr-1"></i> (0225) 70-77-75</p>
+      </div>
+    </div>
+  <div class="footer-copyright text-center py-3">ООО "Форгенто" © 2020. Все права защищены.
+  </div>
+</footer>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6MKkPgemaNoc_PgWxq_LJZHeBgbQFqUI&callback=initMap"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="assets/js/jquery-3.5.0.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+<script src="assets/js/jquery.fancybox.min.js"></script>
+</body>
+</html>
